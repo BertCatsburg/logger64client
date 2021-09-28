@@ -1,0 +1,29 @@
+{
+  "name": "logger64-client",
+  "version": "1.0.0",
+  "description": "Client Routine to include in your App",
+  "main": "./build/logger.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "rm -Rf ./build && tsc"
+  },
+  "keywords": ["log", "logger", "logging","debugger" ],
+  "author": "Bert Catsburg",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.1.0",
+    "tsconfig-paths": "^3.10.1",
+    "tslib": "^1.14.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
