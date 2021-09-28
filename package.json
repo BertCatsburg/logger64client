@@ -1,14 +1,17 @@
 {
-  "name": "logger64-client",
-  "version": "1.0.0",
-  "description": "Client Routine to include in your App",
-  "main": "./build/logger.js",
+  "name": "logger64client",
+  "version": "0.0.1",
+  "description": "Client Routine for Logger64-Server, to include in your App",
+  "main": "./dist/logger.js",
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "build": "rm -Rf ./build && tsc"
   },
   "keywords": ["log", "logger", "logging","debugger" ],
-  "author": "Bert Catsburg",
+  "author": {
+    "name": "Bert Catsburg",
+    "email": "bert@catsburg.com"
+  },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1"

@@ -2,9 +2,6 @@
 .idea/
 .DS_Store
 
-# Typescript
-build/
-
 # NodeJS
 node_modules/
 
