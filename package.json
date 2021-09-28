@@ -5,7 +5,7 @@
   "main": "./dist/logger.js",
   "scripts": {
     "start": "ts-node ./src/index.ts",
-    "build": "rm -Rf ./build && tsc"
+    "build": "rm -Rf ./dist && tsc"
   },
   "keywords": ["log", "logger", "logging","debugger" ],
   "author": {
